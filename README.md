@@ -1,1 +1,1 @@
-# Barista-Project
+# UB2 Cafe

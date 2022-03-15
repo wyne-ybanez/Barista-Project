@@ -1,0 +1,23 @@
+#navigation{
+	background: #B08968;
+	position: fixed;
+	height: 3.5rem;
+	width: 100vw;
+}
+
+#menu {
+	display: flex;
+	flex-direction: row;
+	float: right;
+	list-style: none;
+}
+
+#menu li {
+	padding-top: 1rem;
+	padding-right: 2rem;
+}
+
+#menu li a {
+	font-weight: 500;
+	color: #FFFFFF;
+}
