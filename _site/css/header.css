@@ -2,3 +2,20 @@ header {
 	margin: 0;
 	padding: 0;
 }
+
+.logo--header {
+	color: #ede0d4;
+	font-family: 'Fredoka', sans-serif;
+	font-weight: 500;
+	font-size: 7rem;
+	text-align: center;
+	position: relative;
+	bottom: 25rem;
+	right: 20rem;
+}
+
+.logo--header__secondary {
+	position: relative;
+	bottom: 25rem;
+	right: 15rem;
+}

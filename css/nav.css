@@ -1,8 +1,9 @@
 #navigation{
-	background: #B08968;
+	background: #9c6644;
 	position: fixed;
 	height: 3.5rem;
 	width: 100vw;
+	z-index: 9999;
 }
 
 #menu {
@@ -14,10 +15,55 @@
 
 #menu li {
 	padding-top: 1rem;
-	padding-right: 2rem;
+	padding-right: 3rem;
 }
 
 #menu li a {
-	font-weight: 500;
+	font-weight: bold;
 	color: #FFFFFF;
+}
+
+#menu li a:hover {
+	color: #ede0d4;
+}
+
+.logo--header__nav {
+	color: #fff;
+	font-size: 3rem;
+	font-family: 'Fredoka', sans-serif;
+	left: 2rem;
+	position: absolute;
+}
+
+.logo--header__nav:hover {
+	color: #ede0d4;
+}
+
+/* Underline Effect */
+.underline {
+  display: inline;
+  position: relative;
+  overflow: hidden;
+}
+
+.underline:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  width: 0;
+  bottom: -5px;
+  background: #ede0d4;
+  height: 4px;
+  transition-property: width;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+
+.underline:hover:after,
+.underline:focus:after,
+.underline:active:after {
+  left: 0;
+  right: auto;
+  width: 100%;
 }

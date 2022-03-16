@@ -3,6 +3,7 @@
   grid-template-columns: 5% 88% 5%;
   grid-gap: 1%;
  }
+ 
 /*
 #header {
   grid-column-start: 2;
@@ -10,11 +11,11 @@
   text-align: center;
 }
 */
-#navigation {
+
+/*#navigation {
   grid-column-start: 3;
   text-align: right;
-  border-bottom: 1px solid black;
-}
+}*/
 
 #maincontent {
   grid-column-start: 2;

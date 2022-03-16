@@ -1,8 +1,10 @@
 .masthead-img {
-  width: 100vw;
-  object-fit: contain;
+  object-fit: cover;
+  object-position: 0 10%;
   margin: 0;
   padding: 0;
+  width: 100vw;
+  height: 100vh;
 }
 
 .small-right-img {
