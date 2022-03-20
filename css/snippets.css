@@ -6,7 +6,7 @@
 /* Underline Effect */
 .underline {
   display: inline;
-  position: relative;
+  position: relative; 
   overflow: hidden;
 }
 
@@ -29,7 +29,7 @@
 .underline:active:after {
   left: 0;
   right: auto;
-  width: 100%;
+  width: 100%
 }
 
 /* Text-shadow  */
@@ -55,22 +55,28 @@
   bottom: 12rem;
   color: #fff;
   font-size: 1.5rem;
+  padding: 0.5rem 2rem; 
 }
 
 .button.button--header {
-  padding: 0.5rem 2rem; 
   position: relative;
   margin: 1rem 1.2rem;
   left: 10rem;
 }
 
-.buttons.action--button {
+.buttons.action--button .button {
+  font-size: 1.2rem;
   margin-left: 10rem;
   padding: 0.5rem 2rem;
 }
 
+.buttons.action--button .button:hover {
+  box-shadow: 3px 5px 5px #000;
+}
+
 .button:hover {
   background: rgb(244,164,96);
+  font-weight: bold;
 }
 
 /* Margins  */
@@ -102,4 +108,9 @@
 /* Text Align */
 .text-align-center {
   text-align: center;
+}
+
+/* Colors */
+.bg-darker-brown {
+  background: #7f5539;
 }

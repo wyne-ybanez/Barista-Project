@@ -32,9 +32,9 @@
 	font-size: 3rem;
 	font-family: 'Fredoka', sans-serif;
 	font-weight: 500;
+	position: absolute;
 	top: 0.7rem;
 	left: 2rem;
-	position: absolute;
 }
 
 .logo--header__nav:hover {

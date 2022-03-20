@@ -1,16 +1,17 @@
 /*
   - COLUMNS GO DOWN
   - ROW GO ACROSS
-
-  .container {
-  display: grid; 
-  grid-template-columns: 1fr 1fr 1fr; 
-  grid-template-rows: 1fr 1fr 1fr; 
-  gap: 0px 0px; 
-  grid-template-areas: 
-    ". . ."
-    ". . ."
-    ". . ."; 
+  
+  Example:  
+    .container {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      ". . ."
+      ". . ."
+      ". . ."; 
 }
 */
 
@@ -25,10 +26,10 @@
   grid-column-start: 2;
 }
 
-#footer {
-  grid-column-start: 2;
+#footer--content {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
 }
-
 
 /* Reusable custom Grid */
 /*
