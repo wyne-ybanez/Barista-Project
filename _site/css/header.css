@@ -1,10 +1,12 @@
 header {
-	margin: 0;
+	margin: 0 0 4rem;
 	padding: 0;
+	height: 100vh;
 }
 
 .logo--header {
-	color: #ede0d4;
+	/*color: #ede0d4;*/
+	color: #fff;
 	font-family: 'Fredoka', sans-serif;
 	font-weight: 500;
 	font-size: 7rem;
@@ -16,6 +18,6 @@ header {
 
 .logo--header__secondary {
 	position: relative;
-	bottom: 25rem;
+	bottom: 19rem;
 	right: 15rem;
 }
