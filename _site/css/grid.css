@@ -24,7 +24,13 @@
 #maincontent {
   grid-column-start: 2;
   display: grid;
-  grid-template-rows: 1fr 1fr 0.6fr;
+  grid-template-rows: 1fr 0.9fr 0.6fr;
+  max-height: 160rem;
+}
+
+#blog {
+  grid-column-start: 2;
+  display: grid;
 }
 
 #Content-1 {
