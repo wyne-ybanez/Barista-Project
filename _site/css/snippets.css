@@ -48,6 +48,10 @@
 }
 
 /* Buttons */
+.action--button {
+  margin-top: 2rem;
+}
+
 .button {
   background: #9c6644;
   border: 0.5px;
@@ -105,6 +109,15 @@
   position: absolute;
 }
 
+/* Display */
+.display-block {
+  display: block;
+}
+
+.display-inline-block {
+  display: inline-block;
+}
+
 /* Text Align */
 .text-align-center {
   text-align: center;
@@ -113,4 +126,8 @@
 /* Colors */
 .bg-darker-brown {
   background: #7f5539;
+}
+
+.text-white {
+  color: #fff;
 }

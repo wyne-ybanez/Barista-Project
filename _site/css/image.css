@@ -7,6 +7,17 @@
   height: 100vh;
 }
 
+#banner-img-1 {
+  background: url("../images/home-img-2.jpg") no-repeat center center fixed;
+  background-size: cover;
+  background-position: center;
+  grid-row-start: 2;
+  right: 0;
+  position: absolute;
+  height: 550px;
+  width: 100vw;
+}
+
 .small-right-img {
   width: 50px;
   float: right;
@@ -41,9 +52,12 @@
 }
 
 .large-left-img {
-  width: 250px;
+  width: 400px;
+  height: 500px;
   float: left;
-  margin: 10px;
+  margin-top: 3rem;
+  margin-right: 7rem;
+  object-fit: contain;
 }
 
 .small-centre-img {
