@@ -5,6 +5,7 @@
 @import url("blog.css");
 @import url("contact.css");
 @import url("footer.css");
+@import url("forms.css");
 @import url("grid.css");
 @import url("header.css");
 @import url("image.css");
@@ -62,7 +63,7 @@ a {
 	position: absolute;
 }
 
-.heading.heading--index {
+.heading.heading--underlined {
 	background-image: linear-gradient(120deg, #e6ccb2 0%, rgb(244,164,96) 100%);
   background-repeat: no-repeat;
   background-size: 100% 0.2em;

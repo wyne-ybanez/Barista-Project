@@ -42,6 +42,20 @@
   text-shadow: 5px 5px 7px rgb(244,164,96);
 }
 
+/* Text Transform */
+.capitalize {
+  text-transform: capitalize;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.normal-text {
+  font-weight: normal;
+  font-size: 1rem;
+}
+
 /* Border  */
 .thin-border {
   border: 2px solid #000;
@@ -76,6 +90,7 @@
 
 .buttons.action--button .button:hover {
   box-shadow: 3px 5px 5px #000;
+  cursor: pointer;
 }
 
 .button:hover {
@@ -84,12 +99,24 @@
 }
 
 /* Margins  */
+.margin-top-x-small {
+  margin-top: 1rem;
+}
+
+.margin-bottom-x-small {
+  margin-bottom: 1rem;
+}
+
 .margin-top-small {
   margin-top: 2.5rem;
 }
 
 .margin-top-medium {
-  margin-top: 5rem;
+  margin-top: 5rem !important;
+}
+
+.margin-top-large {
+  margin-top: 10rem;
 }
 
 .margin-bottom-small {
@@ -98,6 +125,22 @@
 
 .margin-bottom-medium {
   margin-bottom: 5rem;
+}
+
+.margin-left-medium {
+  margin-left: 5rem !important;
+}
+
+.margin-left-small {
+  margin-left: 2.5rem !important;
+}
+
+.margin-left-x-small {
+  margin-left: 1rem !important;
+}
+
+.margin-left-0 {
+  margin-left: 0 !important;
 }
 
 .margin-0-auto {

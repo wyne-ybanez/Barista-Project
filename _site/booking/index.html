@@ -58,6 +58,52 @@
     <main class="container">
       <div id="maincontent">
           
+<div id="booking-form">
+  <h1 class="heading heading--underlined">
+      Book a table.
+  </h1>
+
+  <form class="margin-top-large" action="#" method="GET">
+    <div class="margin-bottom-x-small">
+      <label for="name" class="bold">Name: </label>
+      <input class="input-style" type="text" id="name" name="name" placeholder="Wyne Ybanez" required>
+    </div>
+
+    <div class="margin-bottom-x-small">
+      <label for="email" class="bold">E-mail: </label>
+      <input class="input-style" type="email" id="email" name="email" placeholder="example_1@email.com" required>
+    </div>
+
+    <div>
+      <label for="phone" class="bold">Phone Number: </label>
+      <input class="input-style" type="tel" id="phone" name="phone" placeholder="+353 830 03030" required>
+    </div>
+
+    <hr class="margin-top-x-small margin-bottom-x-small">
+
+    <div class="margin-bottom-x-small">
+      <label for="people" class="bold">No. of People:</label>
+      <input class="input-style" type="number" id="people"  placeholder="1" min="1" required>
+    </div>
+
+    <div>
+      <label for="date" class="bold">Date:</label>
+      <input class="input-style" type="date" id="date" name="date" required>
+    </div>
+
+    <hr class="margin-top-x-small margin-bottom-x-small">
+
+    <div>
+      <label for="request" class="bold">Any requests to make your experience better?</label>
+      <textarea id="request" name="request" placeholder="Tell us anything else that could help make your experience better.">
+      </textarea>
+    </div>
+
+    <div class="row margin-top-small buttons action--button">
+      <button type="submit" class="button margin-left-0">Book The Table</button>
+    </div>
+  </form>
+</div>
       </div>
     </main>
     

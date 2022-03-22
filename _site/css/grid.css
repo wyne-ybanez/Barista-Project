@@ -33,6 +33,10 @@
   display: grid;
 }
 
+#booking-form {
+  max-height: 50vh;
+}
+
 #Content-1 {
   grid-row-start: 1;
 }
