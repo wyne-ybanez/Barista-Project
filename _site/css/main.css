@@ -2,8 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap');
 
 /* Imports */
-@import url("blog.css");
-@import url("contact.css");
 @import url("footer.css");
 @import url("forms.css");
 @import url("grid.css");
@@ -55,6 +53,11 @@ a {
 	margin-bottom: 0;
 }
 
+
+#menu #Content-1 {
+	margin-bottom: 0;
+}
+
 .heading {
 	font-size: 4rem;
 	font-weight: 600;
@@ -70,9 +73,32 @@ a {
   background-position: 0% 100%;
 }
 
+.secondary-title {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+}
+
 .banner-text {
 	font-weight: 500;
 	font-size: 1.3rem;
 	padding: 10rem;
+}
+
+.menu-list {
+	display: flex;
+	flex-direction: column;
+}
+
+.menu-list li {
+	margin-top: 3rem;
+	list-style: none;
+}
+
+.menu-list__item {
+	font-weight: 400;
+}
+
+.menu-price {
+	float: right;
 }
 

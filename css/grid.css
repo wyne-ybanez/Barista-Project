@@ -55,6 +55,10 @@
   grid-template-columns: 2fr 1fr 2fr;
 }
 
+#Content-1#menu {
+  max-height: 1rem;
+}
+
 /* Reusable custom Grid */
 /*
   --gutter-horizontal: 6rem;

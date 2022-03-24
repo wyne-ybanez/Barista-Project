@@ -143,6 +143,14 @@
   margin-left: 0 !important;
 }
 
+.margin-right-small {
+  margin-right: 2.5rem !important;
+}
+
+.margin-right-medium {
+  margin-right: 5rem !important;
+}
+
 .margin-0-auto {
   margin: 0 auto;
 }
@@ -177,4 +185,9 @@
 
 .text-white {
   color: #fff;
+}
+
+/* Line Width */
+.hr-darken {
+  border-left: 0.3rem solid black;
 }
