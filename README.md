@@ -6,7 +6,7 @@ The goal of this project is to create a simple and clean barista/coffee website 
 
 ## Deployed Project
 
-Link: 
+Link: https://ub20.netlify.app/
 
 ## UX
 
@@ -37,3 +37,6 @@ Citations:
 
 - Underline Header Effect: 
 	* https://stackoverflow.com/questions/40242378/underline-from-left-to-right-on-hover-in-and-out
+
+- Debug Scripts for automatic deployment using eleventy and Netlify:
+	* https://11ty.recipes/recipes/add-scripts-to-package.json/ 
