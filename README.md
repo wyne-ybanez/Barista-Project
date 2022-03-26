@@ -4,6 +4,9 @@
 
 The goal of this project is to create a simple and clean barista/coffee website for a fake café named UB20.
 
+## Github
+Link: https://github.com/wyne-ybanez/Barista-Project
+
 ## Deployed Project
 
 Link: https://ub20.netlify.app/
