@@ -16,6 +16,13 @@ Link: https://ub20.netlify.app/
 
 - Desktop View Website
 
+## Deployment in Netlify
+
+In netlify deployment settings: 
+
+- Build command: `npm run build`
+- Publish directory: `_site`
+
 
 ## Citations: 
 
