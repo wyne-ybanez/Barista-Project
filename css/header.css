@@ -6,13 +6,13 @@ header {
 
 .logo--header {
 	color: #fff;
-	font-family: 'Fredoka', sans-serif;
-	font-weight: 500;
-	font-size: 7rem;
-	text-align: center;
-	position: relative;
-	bottom: 25rem;
-	right: 20rem;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 500;
+    font-size: 7rem;
+    text-align: left;
+    position: absolute;
+    bottom: 25rem;
+    left: 11rem;
 }
 
 .logo--header__secondary {
