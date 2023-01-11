@@ -4,16 +4,11 @@
 
 The goal of this project is to create a simple and clean barista/coffee website for a fake café named UB20.
 
-## Github
-Link: https://github.com/wyne-ybanez/Barista-Project
-
-## Deployed Project
-
 Link: https://ub20.netlify.app/
 
-## Theme: 
+## Theme:
 
-- Barista/Cafe Bar 
+- Barista/Cafe Bar
 
 - Color Scheme: Brown to light brown as shown in: https://coolors.co/palette/ede0d4-e6ccb2-ddb892-b08968-7f5539-9c6644
 
@@ -21,13 +16,12 @@ Link: https://ub20.netlify.app/
 
 ## Deployment in Netlify
 
-In netlify deployment settings: 
+In netlify deployment settings:
 
 - Build command: `npm run build`
 - Publish directory: `_site`
 
-
-## Citations: 
+## Citations:
 
 - Blog Content:
 	* https://www.couvee.co.id/

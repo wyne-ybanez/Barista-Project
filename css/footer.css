@@ -69,11 +69,7 @@ footer {
 } 
 
 .footer--link__site:hover {
-	background: #000;
-	border-radius: 10px;
-	color: #fff !important;
-	font-size: 1.1rem;
-	padding: 5px;
+	border-bottom: 1px solid #000;
 } 
 
 .footer--link__site:visited {
