@@ -1,7 +1,6 @@
 header {
 	margin: 0 0 4rem;
 	padding: 0;
-	height: 100vh;
 }
 
 .logo--header {
@@ -11,7 +10,7 @@ header {
     font-size: 7rem;
     text-align: left;
     position: absolute;
-    bottom: 25rem;
+    bottom: 40.5rem;
     left: 11rem;
 }
 
