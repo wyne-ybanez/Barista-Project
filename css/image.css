@@ -31,12 +31,12 @@
 }
 
 .large-right-img {
-  width: 400px;
-  height: 500px;
+  width: 30rem;
+  height: 35rem;
   float: right;
   margin-top: 3rem;
   margin-left: 20rem;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .small-left-img {
@@ -52,12 +52,12 @@
 }
 
 .large-left-img {
-  width: 400px;
-  height: 500px;
+  width: 30rem;
+  height: 35rem;
   float: left;
   margin-top: 3rem;
   margin-right: 7rem;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .small-centre-img {
